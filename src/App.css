@@ -1,0 +1,53 @@
+.App {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #eee;
+  margin-bottom: 20px;
+}
+
+.game-form label {
+  display: block;
+  margin-top: 15px;
+  margin-bottom: 5px;
+  font-size: 15px;
+}
+
+.game-form input,
+.game-form textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 15px;
+  box-sizing: border-box;
+}
+
+.input-error {
+  border-color: red !important;
+}
+
+.error-text {
+  color: red;
+  font-size: 13px;
+  margin: 5px 0 0 0;
+}
+
+button[type='submit'] {
+  margin-top: 20px;
+  background-color: #1a73e8;
+  color: white;
+  border: none;
+  padding: 10px 25px;
+  border-radius: 5px;
+  font-size: 15px;
+  cursor: pointer;
+}
